@@ -31,12 +31,12 @@ http://m.tacker.org/pear/File_Bittorrent/example.phps
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Ten pakiet dostarcza dwie klas obs³uguj±ce kodowanie id ekodowanie
+Ten pakiet dostarcza dwie klasy obs³uguj±ce kodowanie i dekodowanie
 danych w formacie Bittorent.
 
-Mo¿esz tak¿e wydobyæ wiele przydatnych informacji z plików .torrent.
+Mo¿na tak¿e wydobyæ wiele przydatnych informacji z plików .torrent.
 
-Przyk³ad u¿ycia
+Przyk³ad u¿ycia:
 http://m.tacker.org/pear/File_Bittorrent/example.phps
 
 Ta klasa ma w PEAR status: %{_status}.
