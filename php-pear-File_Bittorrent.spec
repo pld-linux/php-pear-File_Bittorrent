@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          File
-%define         _subclass       Bittorrent
+%define		_class		File
+%define		_subclass	Bittorrent
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
