@@ -1,19 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		File
 %define		_subclass	Bittorrent
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Decode and Encode data in Bittorrent format
 Summary(pl):	%{_pearname} - Kodowanie i dekodowanie danych w formacie Bittorent
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-%define	_rc RC2
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{_rc}.tgz
-# Source0-md5:	1058c11cf549d492b38a3708e872d7dc
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	97ff0892aae366775a556ecd30212c37
 URL:		http://pear.php.net/package/File_Bittorrent/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
@@ -27,8 +26,8 @@ decoding of data in Bittorrent format.
 
 You can also extract useful informations from .torrent files.
 
-Usage Example
-http://m.tacker.org/pear/File_Bittorrent/example.phps
+Usage Example:
+<http://m.tacker.org/pear/File_Bittorrent/example.phps>
 
 In PEAR status of this package is: %{_status}.
 
@@ -39,7 +38,7 @@ danych w formacie Bittorent.
 Mo¿na tak¿e wydobyæ wiele przydatnych informacji z plików .torrent.
 
 Przyk³ad u¿ycia:
-http://m.tacker.org/pear/File_Bittorrent/example.phps
+<http://m.tacker.org/pear/File_Bittorrent/example.phps>
 
 Ta klasa ma w PEAR status: %{_status}.
 
