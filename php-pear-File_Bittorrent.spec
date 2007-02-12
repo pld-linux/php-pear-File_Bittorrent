@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Decode and Encode data in Bittorrent format
-Summary(pl):	%{_pearname} - Kodowanie i dekodowanie danych w formacie Bittorent
+Summary(pl.UTF-8):   %{_pearname} - Kodowanie i dekodowanie danych w formacie Bittorent
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
@@ -34,13 +34,13 @@ Usage Example:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza dwie klasy obs≥uguj±ce kodowanie i dekodowanie
+%description -l pl.UTF-8
+Ten pakiet dostarcza dwie klasy obs≈ÇugujƒÖce kodowanie i dekodowanie
 danych w formacie Bittorent.
 
-Moøna takøe wydobyÊ wiele przydatnych informacji z plikÛw .torrent.
+Mo≈ºna tak≈ºe wydobyƒá wiele przydatnych informacji z plik√≥w .torrent.
 
-Przyk≥ad uøycia:
+Przyk≈Çad u≈ºycia:
 <http://m.tacker.org/pear/File_Bittorrent/example.phps>
 
 Ta klasa ma w PEAR status: %{_status}.
