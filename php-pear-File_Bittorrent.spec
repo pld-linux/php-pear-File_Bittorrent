@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Decode and Encode data in Bittorrent format
-Summary(pl.UTF-8):   %{_pearname} - Kodowanie i dekodowanie danych w formacie Bittorent
+Summary(pl.UTF-8):	%{_pearname} - Kodowanie i dekodowanie danych w formacie Bittorent
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
