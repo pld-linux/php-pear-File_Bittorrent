@@ -8,13 +8,13 @@ Summary:	%{_pearname} - Decode and Encode data in Bittorrent format
 Summary(pl.UTF-8):	%{_pearname} - Kodowanie i dekodowanie danych w formacie Bittorent
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a4c7b7380450b65b80d2a1880a612f1f
 URL:		http://pear.php.net/package/File_Bittorrent/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.2
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
@@ -29,8 +29,7 @@ decoding of data in Bittorrent format.
 
 You can also extract useful informations from .torrent files.
 
-Usage Example:
-<http://m.tacker.org/pear/File_Bittorrent/example.phps>
+Usage Example: <http://m.tacker.org/pear/File_Bittorrent/example.phps>
 
 In PEAR status of this package is: %{_status}.
 
@@ -50,8 +49,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
