@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		File
 %define		_subclass	Bittorrent
 %define		_status		stable
